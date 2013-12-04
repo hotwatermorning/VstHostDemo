@@ -1,0 +1,14 @@
+*.*
+!*.cpp
+!*.hpp
+!*.txt
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*.gitignore
+!*.md
+
+Debug/
+Release/
+
+!VstHostDemo/vstsdk2.4/
