@@ -1,6 +1,6 @@
 # VstHostDemo
 
-## What's this.
+## What's this?
 
 C++ Advent Calendar 2013のネタとして作成したVSTホストアプリケーションです。
 VSTiをロードして、音を鳴らせます。
