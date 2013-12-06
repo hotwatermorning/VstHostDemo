@@ -76,7 +76,7 @@ VstIntPtr HostApplication::Callback(VstPlugin* vst, VstInt32 opcode, VstInt32 in
 	case audioMasterGetTime:
 		//! VSTƒzƒXƒg‚ÌŒ»İ‚Ìî•ñ‚ğ•Ô‚·
 		timeinfo_.samplePos = 0;
-		timeinfo_.sampleRate = 44100;
+		timeinfo_.sampleRate = sampling_rate_;
 		timeinfo_.nanoSeconds = GetTickCount() * 1000.0 * 1000.0;
 		timeinfo_.ppqPos = 0;
 		timeinfo_.tempo = 120.0;
